@@ -4,9 +4,6 @@
  * Module 1 Critical Thinking - Part 1
  * File Name: person.cpp
  * Due Date: 2024-07-26
- * Description: High-performance data representation script using optimized
- * compile-time string views and platform-agnostic stream flushing
- * to output localized target attributes safely.
  */
 
 #include <iostream>

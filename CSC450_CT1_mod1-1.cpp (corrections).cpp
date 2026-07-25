@@ -4,10 +4,6 @@
  * Module 1 Critical Thinking - Part 2
  * File Name: CSC450_CT1_mod1-1.cpp
  * Due Date: 2024-07-26
- *
- * Description: Completely corrected, high-performance console messaging application.
- * Bypasses legacy Windows-exclusive dependencies like conio.h for modern,
- * cross-platform compatible stream execution holds.
  */
 
 /* Simple Program with a few Errors for Correction Please be sure to correct all outlined errors. */

@@ -5,8 +5,6 @@
  * Module 1 Critical Thinking - Part 3
  * File Name: CSC450_CT1_mod1-2.cpp
  * Due Date: 2024-07-26
- * Description: Fully corrected and optimized C++ program that demonstrates proper syntax, stream manipulation, and output formatting.
- * The program initializes a monetary value and outputs it in a user-friendly format, ensuring all syntax errors are resolved.
  */
 
 #include <iostream>
