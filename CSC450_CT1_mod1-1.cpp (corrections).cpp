@@ -1,7 +1,7 @@
 /**
  * Student Name: Ryley Carlson
- * Course: CSC450 - Programming 3
- * Module 1 Critical Thinking - Part 2
+ * Course: CSC450 - Programming III
+ * Module 1 Critical Thinking Assignment
  * File Name: CSC450_CT1_mod1-1.cpp
  * Due Date: 2024-07-26
  */
