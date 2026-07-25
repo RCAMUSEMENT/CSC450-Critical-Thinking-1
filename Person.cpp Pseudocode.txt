@@ -10,6 +10,7 @@ START PROGRAM ProfileApplication
     PRINT "=================================================="
     PRINT "           DATA ARCHIVE SYSTEM PROFILE            "
     PRINT "=================================================="
+    PRINT "Prefix:         " + PREFIX
     PRINT "First Name:     " + FIRST_NAME
     PRINT "Last Name:      " + LAST_NAME
     PRINT "Street Address: " + STREET_ADDRESS
