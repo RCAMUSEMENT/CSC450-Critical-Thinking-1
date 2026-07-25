@@ -9,7 +9,7 @@
 
 ## Project Overview
 This repository contains the complete deliverables for the Module 1 Critical Thinking assignment. The project is split into three primary software engineering tasks:
-1. **Fictional Profile Application (`person.cpp`):** A custom console application built from scratch utilizing compile-time optimized immutable string views to display a structural dataset.
+1. **Fictional Profile Application (`person.cpp`):** A custom console application built from scratch featuring a tailored "PERSONAL PROFILE MATRIX: PALEONTOLOGIST" display card utilizing compile-time optimized immutable string views to render structural character metadata.
 2. **Syntax Correction Module 1 (`CSC450_CT1_mod1-1.cpp`):** A refurbished template application patched for string-literal encapsulation bugs and updated to bypass legacy, platform-locked dependencies (`<conio.h>`).
 3. **Syntax Correction Module 2 (`CSC450_CT1_mod1-2.cpp`):** A financial tracking script optimized with stream manipulators to prevent decimal truncation and explicitly handle variable numeric data inputs with double precision.
 

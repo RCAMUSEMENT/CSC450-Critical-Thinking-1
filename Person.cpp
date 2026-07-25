@@ -26,7 +26,7 @@ int main() {
 
     // Delivering clean, modular, formatted system profile output layout
     std::cout << "==================================================\n";
-    std::cout << "           PERSONAL PROFILE MATRIX                \n";
+    std::cout << "    PERSONAL PROFILE MATRIX: PALEONTOLOGIST       \n";
     std::cout << "==================================================\n";
     std::cout << "Title:          " << Prefix << "\n";
     std::cout << "First Name:     " << firstName << "\n";
