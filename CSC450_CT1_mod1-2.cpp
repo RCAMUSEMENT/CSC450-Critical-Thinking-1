@@ -6,42 +6,29 @@
  * Due Date: 2024-07-26
  */
 
-#include <iostream>
-#include <iomanip>
-#include <ios>
-#include <limits>
+#include<iostream>
+// FIXED: Removed legacy <conio.h> header for modern compilation compatibility
 
-// Standard namespace isolation rules applied
-using std::cout;
-using std::cin;
-using std::endl;
+// Standard namespace declaration
+using namespace std;
 
-// Main Function Entry Point
+// Main Function
 int main() {
-    // Sync optimizing underlying stream devices
-    std::ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    // Initializing targeted transaction account data boundaries
-    constexpr double myMoney = 1000.50; // this should be printed out
-
-    // Explicitly lock output manipulation settings to two-digit currency rules
-    cout << std::fixed << std::setprecision(2);
+    double myMoney = 1000.50; // this should be printed out
 
     // Standard Output Statement
-    // FIXED: Restored missing stream left-shift insertion operators (<<) to correct compiler context
+    // FIXED: Restored the missing stream insertion operators (<<)
     cout << "Please be sure to correct all syntax errors in this program" << endl;
 
-    // FIXED: Added missing closing double-quote symbol to balance the string literal array layout
+    // FIXED: Added the missing closing double quote after the word "program."
     cout << "I have corrected all errors for this program." << endl;
 
-    // FIXED: Injected the active asset data value into the stream array so it prints accurately
-    cout << " The total amount of money available is = $" << myMoney << endl;
+    // FIXED: Appended the myMoney variable to the stream so the data actually prints
+    cout << " The total amount of money available is = " << myMoney << endl;
 
     // Wait For Output Screen
-    // FIXED: Avoided conio system reliance by hooking directly into standard input stream buffers
-    cout << "\n[Execution Complete. Press ENTER to close the runtime window...]\n";
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    // FIXED: Used standard library cin.get() to safely pause the terminal window
+    cin.get();
 
     // Main Function return Statement
     return 0;
