@@ -1,7 +1,7 @@
 # CSC450: Programming III — Critical Thinking 1
 
 **Student Name:** Ryley Carlson
-**Course:** CSC450 - Programming 3 (Module 1)
+**Course:** CSC450 - Programming III (Module 1)
 **Development Environment:** Visual Studio Code (C/C++ Extension Pack)
 **Compiler Toolchain:** GCC / G++ Cross-Platform Environment
 
