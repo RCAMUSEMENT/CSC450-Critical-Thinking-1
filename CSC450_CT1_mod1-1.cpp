@@ -4,7 +4,7 @@
  * Module 1 Critical Thinking Assignment
  * File Name: CSC450_CT1_mod1-1.cpp
  * Due Date: 2024-07-26
- */
+ */ 
 
 /* Simple Program with a few Errors for Correction Please be sure to correct all outlined errors. */
 
