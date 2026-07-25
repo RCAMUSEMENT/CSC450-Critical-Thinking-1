@@ -24,7 +24,7 @@ int main() {
     constexpr std::string_view city{"Snakewater, MT"};
     constexpr std::string_view zipCode{"59001"};
 
-    // Delivering clean, modular, formatted system profile output layout
+    // Outputting the personal profile matrix to the console to make it visually appealing for the user
     std::cout << "==================================================\n";
     std::cout << "    PERSONAL PROFILE MATRIX: PALEONTOLOGIST       \n";
     std::cout << "==================================================\n";
