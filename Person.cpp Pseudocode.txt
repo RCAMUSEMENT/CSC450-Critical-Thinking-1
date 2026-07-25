@@ -18,6 +18,6 @@ START PROGRAM ProfileApplication
     PRINT "=================================================="
 
     // Hold execution stack open for the end-user
-    PRINT "System idle. Press enter token to terminate loop."
+    PRINT "System idle. Press enter token to terminate the loop."
     AWAIT_USER_INPUT
 END PROGRAM
