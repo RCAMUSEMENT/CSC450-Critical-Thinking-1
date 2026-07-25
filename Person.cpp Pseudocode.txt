@@ -1,0 +1,23 @@
+START PROGRAM ProfileApplication
+    // Enforce immutable character arrays to preserve memory boundaries
+    DECLARE Constant String FIRST_NAME = "Alan"
+    DECLARE Constant String LAST_NAME = "Grant"
+    DECLARE Constant String STREET_ADDRESS = "309 Raptor Way"
+    DECLARE String CITY = "Isla Nublar"
+    DECLARE String ZIP_CODE = "77279"
+
+    // Construct modular data table presentation layer
+    PRINT "=================================================="
+    PRINT "           DATA ARCHIVE SYSTEM PROFILE            "
+    PRINT "=================================================="
+    PRINT "First Name:     " + FIRST_NAME
+    PRINT "Last Name:      " + LAST_NAME
+    PRINT "Street Address: " + STREET_ADDRESS
+    PRINT "City:           " + CITY
+    PRINT "Zip Code:       " + ZIP_CODE
+    PRINT "=================================================="
+
+    // Hold execution stack open for the end-user
+    PRINT "System idle. Press enter token to terminate loop."
+    AWAIT_USER_INPUT
+END PROGRAM
